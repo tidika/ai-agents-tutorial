@@ -1,0 +1,14 @@
+weather_tool = {
+    "type": "function",
+    "function": {
+        "name": "get_weather",
+        "description": "Get the weather for a city",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "location": { "type": "string" }
+            },
+            "required": ["location"]
+        }
+    }
+}
