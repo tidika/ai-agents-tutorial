@@ -1,2 +1,3 @@
-weather_agent/__pycache__/
+__pycache__/
 .env
+tools/__pycache__/
